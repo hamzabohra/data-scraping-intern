@@ -1,4 +1,4 @@
-# Collegedunia University & Course Scraper
+# University & Course Scraper
 
 A dynamic Python web scraper that extracts **5 top Indian universities** and their **top 5 courses each** from [Collegedunia.com](https://collegedunia.com), and outputs a structured, relational Excel file.
 
