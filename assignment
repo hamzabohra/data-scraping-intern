@@ -1,0 +1,97 @@
+Pre-Interview Assignment: University & Course Data Scraping
+Objective
+Scrape universities and their courses from the web and submit the data in a structured Excel file.
+The goal of this assignment is to evaluate your ability to:
+Collect real-world data using Python
+Clean and structure raw data
+Organize datasets professionally
+Maintain relational data integrity
+
+
+Task Details
+1. University Selection
+Choose any 5–10 universities from any country
+ (or from a provided list, if shared).
+
+
+2. University Data Collection
+For each university, collect the following details:
+University Name
+Country
+City
+Official Website
+3. Course Data Collection
+For each selected university, collect at least 5 courses with the following details:
+Course Name
+Level (Bachelor’s / Master’s / PhD / Diploma, etc.)
+Field / Discipline
+Duration (if available)
+Fees (if available)
+Eligibility Criteria (if available)
+4. Technical Requirements
+Use Python for scraping
+Ensure scraping is dynamic and automated (no copy-paste)
+Organize and clean the data properly
+Handle missing values appropriately
+Excel Submission Format (Demo Structure)
+Submit one Excel file with two sheets:
+
+Sheet 1: Universities
+university_id
+university_name
+country
+city
+website
+
+Instructions:
+university_id must be unique.
+No duplicate entries.
+Website links should be official URLs only.
+
+
+Sheet 2: Courses
+course_id
+university_id
+course_name
+level
+discipline
+duration
+fees
+eligibility
+
+Important:
+university_id must correctly link each course to its university.
+course_id must be unique.
+Ensure relational integrity between both sheets.
+
+
+Submission Instructions
+Submit 1 Excel file containing:
+
+
+Sheet 1: Universities
+Sheet 2: Courses
+
+
+Must Include your Python script via:
+
+
+ZIP file, or
+
+
+GitHub repository link
+Ensure:
+
+
+Data is clean and readable
+No duplicate records
+IDs are properly linked
+Evaluation Criteria
+Your submission will be evaluated based on:
+Correctness and completeness of data
+Data cleanliness and structured formatting
+Proper linking between universities and courses
+Scraping quality (automation, not manual copy-paste)
+Excel organization and professional presentation
+
+
