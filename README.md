@@ -23,8 +23,8 @@ A dynamic Python web scraper that extracts **5 top Indian universities** and the
 
 ### 1. Clone the repo
 ```bash
-git clone <your-repo-url>
-cd "web scraping internship"
+git clone https://github.com/hamzabohra/data-scraping-intern.git
+cd "data-scraping-intern"
 ```
 
 ### 2. Install dependencies
